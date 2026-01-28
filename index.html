@@ -1,1 +1,27 @@
-html file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shipping Logistics Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Shipping Logistics Rate Calculator</h1>
+
+    <div class="container">
+        <label>Distance (km):</label>
+        <input type="number" id="distance" placeholder="Enter distance">
+
+        <label>Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter weight">
+
+        <button onclick="calculateRate()">Calculate Rate</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
